@@ -1,0 +1,15 @@
+{
+  "name": "delete-trump",
+  "version": "1.0.0",
+  "description": "Automatically tell Trump to delete his account.",
+  "scripts": {
+    "start": "node app",
+    "start-forever": "./node_modules/.bin/forever start app.js"
+  },
+  "author": "Manny404",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^0.15.2",
+    "twitter": "^1.2.5"
+  }
+}
