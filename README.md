@@ -11,7 +11,7 @@ Automatically tell Donald Trump to delete his account.
 
 Obligatory `npm install`
 
-Put your [Twitter App credentials](http://iag.me/socialmedia/how-to-create-a-twitter-app-in-8-easy-steps/) inside the `config.json` file.
+Put your [Twitter App credentials](http://iag.me/socialmedia/how-to-create-a-twitter-app-in-8-easy-steps/) inside a `config.json` file in the project root.
 
 eg:
 
