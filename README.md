@@ -5,7 +5,7 @@
 
 # delete-trump
 
-Automatically tell Donal Trump to delete his account.
+Automatically tell Donald Trump to delete his account.
 
 # Usage:
 
