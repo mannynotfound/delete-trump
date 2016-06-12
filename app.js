@@ -6,7 +6,7 @@ function DeleteTrump(api) {
 }
 
 DeleteTrump.prototype = {
-  startStream() {
+  startStream:function () {
     var self = this;
     this.client.stream('statuses/filter', {
       'follow': '25073877'
@@ -33,7 +33,7 @@ DeleteTrump.prototype = {
     });
   },
 
-  resurrect() {
+  resurrect:function () {
     this.stream = null
     var self = this;
     console.log('RESURRECTING STREAM');
@@ -42,7 +42,7 @@ DeleteTrump.prototype = {
     }, 1000 * 60 * 5 ); // wait 5 minutes
   },
 
-  handleError(err) {
+  handleError:function (err) {
     console.log(err);
     process.exit();
   }
