@@ -1,6 +1,6 @@
 <p align="center">
   <br />
-  <img src="https://raw.githubusercontent.com/mannynotfound/delete-trump/master/delete-trump.png" />
+  <img width="300" src="https://raw.githubusercontent.com/mannynotfound/delete-trump/master/delete-trump.png" />
 </p>
 
 # delete-trump
